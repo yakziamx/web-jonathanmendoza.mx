@@ -38,10 +38,10 @@ export default (post: CollectionEntry<"posts">) => {
           color: "#6b7280",
         }}
       >
-        {post.data.publishDate.toLocaleDateString("en-us", {
+        {post.data.publishDate.toLocaleDateString("es-mx", {
           year: "numeric",
-          month: "short",
-          day: "numeric",
+          month: "long",
+          day: "2-digit",
         })}
       </div>
 

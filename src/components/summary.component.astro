@@ -12,7 +12,6 @@ const { post } = Astro.props;
 const { remarkPluginFrontmatter } = await post.render();
 
 let timeToRead = remarkPluginFrontmatter.minutesRead.toString();
-let timeToReadFormatted = timeToRead == "1 min read" ? timeToRead.replace("min read", "minuto de lectura") : timeToRead.replace("min read", "minutos de lectura");
 
 ---
 

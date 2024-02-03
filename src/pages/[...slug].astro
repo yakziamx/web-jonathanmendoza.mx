@@ -25,7 +25,6 @@ const { Content, remarkPluginFrontmatter } = await post.render();
 const ogImageUrl = new URL(post.slug + ".png", Astro.url.origin).href;
 
 let timeToRead = remarkPluginFrontmatter.minutesRead.toString();
-let timeToReadFormatted = timeToRead == "1 min read" ? timeToRead.replace("min read", "minuto de lectura") : timeToRead.replace("min read", "minutos de lectura");
 
 ---
 

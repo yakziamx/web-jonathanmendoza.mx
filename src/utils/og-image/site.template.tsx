@@ -13,7 +13,7 @@ export default () => {
         gap: "1rem",
         fontFamily: "Poppins",
         padding: "4rem",
-        backgroundColor: "#111827",
+        backgroundColor: "#1c1c1c",
         borderWidth: "1rem",
         borderColor: "#374151",
         lineHeight: 1,
