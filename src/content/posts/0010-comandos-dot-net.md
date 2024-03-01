@@ -120,7 +120,7 @@ dotnet publish
 
 Para que la mayoría de los comandos anteriores funcione, es necesario cambiar la carpeta de trabajo de la terminal a la ruta en la que se encuentra nuestro proyecto de .NET. 
 
-Para ello, podemos usar el comando `ls` (list) para listar los archivos y carpetas de la carpeta de trabajo y el comando `cd` (change directory) para  "entrar" o "salir" de una carpeta. 
+Para ello, podemos usar el comando `ls` (list) o `dir` (dependiendo del Sistema Operativo) para listar los archivos y carpetas de la carpeta de trabajo y el comando `cd` (change directory) para  "entrar" o "salir" de una carpeta. 
 
 Si usamos Visual Studio Code, su terminal se iniciará automáticamente en la carpeta que se abra.
 
