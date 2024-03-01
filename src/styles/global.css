@@ -63,3 +63,19 @@ code {
     }
   }
 }
+
+.prose{
+  a{
+    @apply no-underline hover:underline decoration-secondary-color;
+  }
+  /* a:hover{
+    @apply underline decoration-secondary-color;
+  } */
+}
+
+/* article {
+  @apply no-underline;
+  a, a:hover{
+    @apply no-underline;
+  } 
+} */

@@ -1,7 +1,7 @@
 ---
 title: "Markdown Test Page"
 publishDate: 2024-01-01 10:00:00
-tags: ["amet", "commodo libero", "semper purus"]
+tags: ["personal", "desarrollo"]
 isDraft: true
 ---
 

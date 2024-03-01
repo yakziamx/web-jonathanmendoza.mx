@@ -3,6 +3,7 @@ title: "¡Hola Mundo!"
 publishDate: 2024-01-01 10:00:00
 tags: ["personal"]
 isDraft: false
+slug: hola-mundo
 ---
 
 Con este primer artículo, les doy la bienvenida a mi blog profesional.

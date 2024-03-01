@@ -9,6 +9,7 @@ export default {
       colors: {
         'background-color': '#1c1c1c',
         'primary-color': '#a2ce3b',
+        'secondary-color': '#29abe2',
       },
       fontFamily: {
         sans: ["Poppins", ...defaultTheme.fontFamily.sans],

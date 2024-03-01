@@ -5,7 +5,7 @@ export const Site = {
 
   title: "Jonathan Mendoza",
 
-  titleTemplate: "%s - AstroMon",
+  titleTemplate: "%s - Jonathan Mendoza",
 
   description: "Blog de Jonathan Mendoza",
 

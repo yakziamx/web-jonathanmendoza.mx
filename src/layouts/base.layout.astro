@@ -42,8 +42,9 @@ const defaultMeta: Partial<SeoProps> = {
     <ViewTransitions />
   </head>
   <body
-    class="flex min-h-screen flex-col font-sans text-gray-900 antialiased dark:bg-background-color dark:text-white"
+    class="flex min-h-screen flex-col font-sans text-gray-900 antialiased dark:bg-background-color dark:text-white select-none"
   >
+    <div id="top"></div>
     <nav class="flex items-center p-4">
       <a href="/" class="text-2xl font-bold">{Site.title}</a>
 
@@ -56,12 +57,19 @@ const defaultMeta: Partial<SeoProps> = {
 
     <footer class="px-4 py-16 text-gray-500 dark:text-gray-400">
       <div class="text-center">
-        Desde San Luis Potosí, México 🌮 para el mundo. Sitio desarrollado por 
-        <a 
-          href="https://bento.me/yakziamx" 
-          target="_blank" 
-          rel="noopener"
-          class="font-bold hover:underline">Jonathan Mendoza</a>
+        <p class="text-sm pt-3">
+          JonathanMendoza.mx © 2024 <span aria-hidden="true">·</span>
+          <a
+            href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1"
+            target="_blank" 
+            rel="noopener"
+            class="font-bold hover:underline">CC BY-NC-ND 4.0
+        </p>
+        <p class="text-sm pt-3">
+          <a
+            href="#top"
+            class="font-bold hover:underline">Ir para arriba 👆</a>
+        </p>
       </div>
     </footer>
   </body>

@@ -55,7 +55,7 @@ export default defineConfig({
 
             await navigator.clipboard.writeText(value);
 
-            el.innerText = "copied!";
+            el.innerText = "¡copiado!";
 
             setTimeout(() => {
               el.innerText = originalText;
@@ -72,7 +72,7 @@ export default defineConfig({
                 .toString()
                 .replace(/\s+/g, " ")}; copy(arguments[0])`,
             },
-            children: [{ type: "text", value: "copy" }],
+            children: [{ type: "text", value: "copiar" }],
           });
         });
       },
