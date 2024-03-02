@@ -3,6 +3,7 @@ import { getCollection } from "astro:content";
 import BaseLayout from "@/layouts/base.layout.astro";
 import Time from "@/components/time.component.astro";
 import Tag from "@/components/tag.component.astro";
+import Bibliography from "@/components/bibliography.component.astro";
 import type { GetStaticPaths, InferGetStaticPropsType } from "astro";
 
 export const getStaticPaths = (async () => {
@@ -53,7 +54,7 @@ let timeToRead = remarkPluginFrontmatter.minutesRead.toString();
         </div>
 
         <h1
-          class="mb-8 text-4xl font-bold lg:text-6xl"
+          class="mb-8 text-4xl font-bold lg:text-6xl text-balance"
           transition:name={`post.title:${post.slug}`}
         >
           {post.data.title}
@@ -64,6 +65,9 @@ let timeToRead = remarkPluginFrontmatter.minutesRead.toString();
 
       <article class="prose dark:prose-invert">
         <Content />
+
+        {post.data.references && <Bibliography references={post.data.references} />}
+
       </article>
 
     </div>

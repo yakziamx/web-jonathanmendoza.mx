@@ -4,6 +4,18 @@ publishDate: 2024-26-02 10:00:00
 tags: ["desarrollo"]
 isDraft: false
 slug: comandos-dot-net
+references: [
+    "MAUIMAN.dev. (2023). .NET MAUI with .NET CLI (Command Line Interface). Recuperado de https://mauiman.dev/maui_cli_commandlineinterface.html",
+    "MAUIMAN.dev. (2023). Getting started with .NET MAUI (iOS) on an M1 Mac. Recuperado de https://mauiman.dev/maui_ios_mac.html",
+    "Microsoft Learn. (2024). ¿Qué es .NET MAUI?. Recuperado de https://learn.microsoft.com/es-es/dotnet/maui/what-is-maui?view=net-maui-8.0",
+    "Microsoft Learn. (2023). dotnet build. Recuperado de https://learn.microsoft.com/es-es/dotnet/core/tools/dotnet-build",
+    "Microsoft Learn. (2023). comando dotnet. Recuperado de https://learn.microsoft.com/es-es/dotnet/core/tools/dotnet",
+    "Microsoft Learn. (2024). dotnet new. Recuperado de https://learn.microsoft.com/es-es/dotnet/core/tools/dotnet-new",
+    "Microsoft Learn. (2023). dotnet publish. Recuperado de https://learn.microsoft.com/es-es/dotnet/core/tools/dotnet-publish",
+    "Microsoft Learn. (2023). dotnet run. Recuperado de https://learn.microsoft.com/es-es/dotnet/core/tools/dotnet-run",
+    "Microsoft Learn. (2023). dotnet workload install. Recuperado de https://learn.microsoft.com/es-es/dotnet/core/tools/dotnet-workload-install",
+    "Microsoft Learn. (2023). Información general sobre la CLI de .NET. Recuperado de https://learn.microsoft.com/es-es/dotnet/core/tools/"
+]
 ---
 
 Recientemente he estado trabajando en algunos proyectos de prueba con .Net usando una Macbook Air con macOS Sonoma. En este ambiente, solo instalé [Visual Studio Code](https://code.visualstudio.com/) y [.NET 8](https://dotnet.microsoft.com/es-es/download/dotnet/8.0).
@@ -123,16 +135,3 @@ Para que la mayoría de los comandos anteriores funcione, es necesario cambiar l
 Para ello, podemos usar el comando `ls` (list) o `dir` (dependiendo del Sistema Operativo) para listar los archivos y carpetas de la carpeta de trabajo y el comando `cd` (change directory) para  "entrar" o "salir" de una carpeta. 
 
 Si usamos Visual Studio Code, su terminal se iniciará automáticamente en la carpeta que se abra.
-
-
-## Referencias
-* MAUIMAN.dev. (2023). .NET MAUI with .NET CLI (Command Line Interface). Recuperado de https://mauiman.dev/maui_cli_commandlineinterface.html
-* MAUIMAN.dev. (2023). Getting started with .NET MAUI (iOS) on an M1 Mac. Recuperado de https://mauiman.dev/maui_ios_mac.html
-* Microsoft Learn. (2024). ¿Qué es .NET MAUI?. Recuperado de https://learn.microsoft.com/es-es/dotnet/maui/what-is-maui?view=net-maui-8.0
-* Microsoft Learn. (2023). dotnet build. Recuperado de https://learn.microsoft.com/es-es/dotnet/core/tools/dotnet-build
-* Microsoft Learn. (2023). comando dotnet. Recuperado de https://learn.microsoft.com/es-es/dotnet/core/tools/dotnet
-* Microsoft Learn. (2024). dotnet new. Recuperado de https://learn.microsoft.com/es-es/dotnet/core/tools/dotnet-new
-* Microsoft Learn. (2023). dotnet publish. Recuperado de https://learn.microsoft.com/es-es/dotnet/core/tools/dotnet-publish
-* Microsoft Learn. (2023). dotnet run. Recuperado de https://learn.microsoft.com/es-es/dotnet/core/tools/dotnet-run
-* Microsoft Learn. (2023). dotnet workload install. Recuperado de https://learn.microsoft.com/es-es/dotnet/core/tools/dotnet-workload-install
-* Microsoft Learn. (2023). Información general sobre la CLI de .NET. Recuperado de https://learn.microsoft.com/es-es/dotnet/core/tools/

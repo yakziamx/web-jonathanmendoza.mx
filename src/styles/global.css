@@ -66,7 +66,7 @@ code {
 
 .prose{
   a{
-    @apply no-underline hover:underline decoration-secondary-color;
+    @apply underline decoration-solid underline-offset-2 decoration-secondary-color hover:text-secondary-color;
   }
   /* a:hover{
     @apply underline decoration-secondary-color;
@@ -74,8 +74,7 @@ code {
 }
 
 /* article {
-  @apply no-underline;
   a, a:hover{
-    @apply no-underline;
+    @apply underline decoration-secondary-color;
   } 
 } */

@@ -4,6 +4,9 @@ publishDate: 2024-01-01 20:00:00
 tags: ["personal"]
 isDraft: false
 slug: iniciando-el-2024
+references: [
+    "Artiga, H. (2023). Biografía de Bob Parsons. Emprende PYME.NET. Recuperado de https://emprendepyme.net/biografias/bob-parsons"
+]
 ---
 Decidí iniciar el 2024 rentando un servidor VPS en GoDaddy. A continuación te comparto más información sobre esta adquisición.
 
@@ -15,7 +18,7 @@ Decidí iniciar el 2024 rentando un servidor VPS en GoDaddy. A continuación te 
 - [Referencias](#Referencias)
 
 ## <a class="no-underline hover:underline text-secondary-color" name="Antecedentes" href="#Antecedentes">#</a> Antecedentes
-Godaddy y yo hemos coincidido desde hace mucho años. Recuerdo que en la empresa en la que laboro, por allá del 2009 (cuando Bob Parsons[^1] aún era CEO de GoDaddy), contratamos varios productos y servicios con ellos. Al tener pocas incidencias con lo adquirido, se empezó a generar una confianza en ellos.
+Godaddy y yo hemos coincidido desde hace mucho años. Recuerdo que en la empresa en la que laboro, por allá del 2009 (cuando Bob Parsons aún era CEO de GoDaddy), contratamos varios productos y servicios con ellos. Al tener pocas incidencias con lo adquirido, se empezó a generar una confianza en ellos.
 
 El 19 de noviembre de 2011 me animé a rentar un Ultimate Web Hosting Windows (Servidor compartido) con el cual emprendí en el mundo de los dominios, servidores y administración de correos. Mi experiencia fue bastante agradable y aprendí mucho en aquel momento.
 
@@ -52,7 +55,3 @@ Estuve pensándole por un buen rato, ya que si bien por características no iba 
 Para que el VPS no me saliera aún más caro solicité que fuera Autoadministrado, esto significa que el Sistema Operativo lo pone GoDaddy y que todo lo que requiera el servidor de aplicaciones y configuraciones van por mi cuenta. Es algo arriesgado, ya que lo más sencillo era que el servidor pudiera contar con Plesk para que la administración fuera más sencilla, pero aquí nos gusta elegir lo que no es sencillo.
 
 Mis siguientes artículos tratarán los temas de configuración del VPS.
-
-## <a class="no-underline hover:underline text-secondary-color" name="Referencias" href="#Referencias">#</a> Referencias
-
-[^1]: Artiga, H. (2023). Biografía de Bob Parsons. Emprende PYME.NET. Recuperado de [https://emprendepyme.net/biografias/bob-parsons](https://emprendepyme.net/biografias/bob-parsons)

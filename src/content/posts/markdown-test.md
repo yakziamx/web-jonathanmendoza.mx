@@ -3,6 +3,9 @@ title: "Markdown Test Page"
 publishDate: 2024-01-01 10:00:00
 tags: ["personal", "desarrollo"]
 isDraft: true
+references: [
+      "Mendoza, J. (2024). Blog de Jonathan Mendoza. Recuperado de https://jonathanmendoza.mx"
+    ]
 ---
 
 ![Illustration of woman using a computer receiving likes](/assets/home-illustration.png)
