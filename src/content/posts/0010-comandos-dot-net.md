@@ -20,7 +20,7 @@ references: [
 
 Recientemente he estado trabajando en algunos proyectos de prueba con .Net usando una Macbook Air con macOS Sonoma. En este ambiente, solo instalé [Visual Studio Code](https://code.visualstudio.com/) y [.NET 8](https://dotnet.microsoft.com/es-es/download/dotnet/8.0).
 
-Para poder crear proyectos, compilarlos, ejecutarlos y publicarlos, he estado usando la CLI (command-line interface) de .NET. La "interfaz de la línea de comandos" (CLI) permite invocar el controlador genérico `dotnet`, ejecutar un comando y, si se requiere, enviarle opciones al comando.
+Para poder crear proyectos, compilarlos, ejecutarlos y publicarlos, he estado usando la CLI (command-line interface) de .NET. La "interfaz de la línea de comandos" (CLI) permite invocar el controlador genérico **dotnet**, ejecutar un comando y, si se requiere, enviarle opciones al comando.
 
 ```showLineNumbers title="CLI de .NET"
 dotnet <comando> <opciones>
@@ -30,7 +30,7 @@ A continuación te comparto los comandos que he estado usando y que podrían ser
 
 ## dotnet
 
-Para revisar si tenemos instalado .NET en el equipo y consultar la versión, se puede utilizar la opción `version` o la opción `info`. Para obtener más ayuda del controlador dotnet se puede usar la opción `help`.
+Para revisar si tenemos instalado .NET en el equipo y consultar la versión, se puede utilizar la opción **version** o la opción **info**. Para obtener más ayuda del controlador dotnet se puede usar la opción **help**.
 
 ```showLineNumbers title="CLI de .NET"
 dotnet --version
@@ -40,27 +40,27 @@ dotnet --help
 
 ## new
 
-El comando `new` es utilizado para crear un nuevo proyecto, archivo de configuración o solución, dependiendo de la plantilla que se le indique como argumento.
+El comando **new** es utilizado para crear un nuevo proyecto, archivo de configuración o solución, dependiendo de la plantilla que se le indique como argumento.
 
-Para crear un proyecto de aplicación de consola, se utilizaría la plantilla `console` de la siguiente manera:
+Para crear un proyecto de aplicación de consola, se utilizaría la plantilla **console** de la siguiente manera:
 
 ```showLineNumbers title="CLI de .NET"
 dotnet new console
 ```
 
-Para crear un proyecto de API web de ASP.NET Core, se utilizaría la plantilla `webapi`, se le especificaría el nombre *API* y se le indicaría que usara la opción use-controllers para que agregue los modelos y controladores de la siguiente manera:
+Para crear un proyecto de API web de ASP.NET Core, se utilizaría la plantilla **webapi**, se le especificaría el nombre *API* y se le indicaría que usará la opción *use-controllers* para que agregue los modelos y controladores de la siguiente manera:
 
 ```showLineNumbers title="CLI de .NET"
 dotnet new webapi -n API --use-controllers
 ```
 
-Para crear un proyecto de MAUI (Multi-platform App UI), se utilizaría la plantilla `maui` (la cual se descarga cuando se instala la carga de trabajo **maui**) de la siguiente manera:
+Para crear un proyecto de MAUI (Multi-platform App UI), se utilizaría la plantilla **maui** (la cual se descarga cuando se instala la carga de trabajo **maui**) de la siguiente manera:
 
 ```showLineNumbers title="CLI de .NET"
 dotnet new maui
 ```
 
-Para tener acceso a la ayuda del comando se puede usar la opción `help`:
+Para tener acceso a la ayuda del comando se puede usar la opción **help**:
 
 ```showLineNumbers title="CLI de .NET"
 dotnet new --help
@@ -68,9 +68,9 @@ dotnet new --help
 
 ## workload
 
-El comando `workload` permite trabajar con cargas de trabajo de .NET.
+El comando **workload** permite trabajar con cargas de trabajo de .NET.
 
-La opción `install` instala una carga de trabajo indicada. Por ejemplo, para instalar la carga de trabajo **maui** se haría de la siguiente manera:
+La opción **install** instala una carga de trabajo indicada. Por ejemplo, para instalar la carga de trabajo **maui** se haría de la siguiente manera:
 
 ```showLineNumbers title="CLI de .NET"
 dotnet workload install maui
@@ -82,7 +82,7 @@ Para mostrar información sobre las cargas de trabajo instaladas, se hace de la 
 dotnet workload --info
 ```
 
-Para tener acceso a la ayuda del comando se puede usar la opción `help`:
+Para tener acceso a la ayuda del comando se puede usar la opción **help**:
 
 ```showLineNumbers title="CLI de .NET"
 dotnet workload --help
@@ -96,7 +96,7 @@ El comando `run` permite ejecutar el código fuente. Se puede usar de la siguien
 dotnet run
 ```
 
-Para tener acceso a la ayuda del comando se puede usar la opción `help`:
+Para tener acceso a la ayuda del comando se puede usar la opción **help**:
 
 ```showLineNumbers title="CLI de .NET"
 dotnet run --help
@@ -104,7 +104,7 @@ dotnet run --help
 
 ## build
 
-El comando `build` compila el código fuente y todas sus dependencias.
+El comando **build** compila el código fuente y todas sus dependencias.
 
 Para compilar un proyecto maui y ejecutarlo sobre el framework .NET 8 bajo la plataforma de macOS se hace de la siguiente manera:
 
@@ -112,7 +112,7 @@ Para compilar un proyecto maui y ejecutarlo sobre el framework .NET 8 bajo la pl
 dotnet build -t:Run -f net8.0-maccatalyst  
 ```
 
-Para tener acceso a la ayuda del comando se puede usar la opción `help`:
+Para tener acceso a la ayuda del comando se puede usar la opción **help**:
 
 ```showLineNumbers title="CLI de .NET"
 dotnet build --help
@@ -120,7 +120,7 @@ dotnet build --help
 
 ## publish
 
-El comando `publish` se utiliza para publicar la aplicación y sus dependencias en una carpeta. Estos archivos pueden ser desplegados en un servidor posteriormente.
+El comando **publish** se utiliza para publicar la aplicación y sus dependencias en una carpeta. Estos archivos pueden ser desplegados en un servidor posteriormente.
 
 Para publicar un proyecto de tipo API web de ASP.NET Core se puede hacer de la siguiente manera:
 
@@ -132,6 +132,6 @@ dotnet publish
 
 Para que la mayoría de los comandos anteriores funcione, es necesario cambiar la carpeta de trabajo de la terminal a la ruta en la que se encuentra nuestro proyecto de .NET. 
 
-Para ello, podemos usar el comando `ls` (list) o `dir` (dependiendo del Sistema Operativo) para listar los archivos y carpetas de la carpeta de trabajo y el comando `cd` (change directory) para  "entrar" o "salir" de una carpeta. 
+Para ello, podemos usar el comando **ls** (list) o **dir** (dependiendo del Sistema Operativo) para listar los archivos y carpetas de la carpeta de trabajo y el comando **cd** (change directory) para  "entrar" o "salir" de una carpeta. 
 
 Si usamos Visual Studio Code, su terminal se iniciará automáticamente en la carpeta que se abra.
