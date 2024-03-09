@@ -10,19 +10,12 @@ references: [
 ---
 Decidí iniciar el 2024 rentando un servidor VPS en GoDaddy. A continuación te comparto más información sobre esta adquisición.
 
-## Tabla de contenidos
-
-- [Antecedentes](#Antecedentes)
-- [En el 2023...](#EnEl2023)
-- [Y para el 2024...](#YParaEl2024)
-- [Referencias](#Referencias)
-
-## <a class="no-underline hover:underline text-secondary-color" name="Antecedentes" href="#Antecedentes">#</a> Antecedentes
+## Antecedentes
 Godaddy y yo hemos coincidido desde hace mucho años. Recuerdo que en la empresa en la que laboro, por allá del 2009 (cuando Bob Parsons aún era CEO de GoDaddy), contratamos varios productos y servicios con ellos. Al tener pocas incidencias con lo adquirido, se empezó a generar una confianza en ellos.
 
 El 19 de noviembre de 2011 me animé a rentar un Ultimate Web Hosting Windows (Servidor compartido) con el cual emprendí en el mundo de los dominios, servidores y administración de correos. Mi experiencia fue bastante agradable y aprendí mucho en aquel momento.
 
-## <a class="no-underline hover:underline text-secondary-color" name="EnEl2023" href="#EnEl2023">#</a> En el 2023...
+## En el 2023...
 
 El 26 de agosto del 2023, renté un [Web Hosting Ultimate](https://www.godaddy.com/es/hosting/web-hosting) el cual incluía Windows Server como sistema operativo y Plesk para la administración. 
 
@@ -37,7 +30,7 @@ Obtuve un servidor que me permitía lo siguiente:
 
 Si bien, el desempeño de las páginas estáticas que llegué a colocar ahí era bastante bueno, a la hora de empezar a crear algunas Web API's con .Net 6 y conectarlas a unas bases de datos SQL Server, se empezaba a sentir que la respuesta a las peticiones empezaban a demorar.
 
-## <a class="no-underline hover:underline text-secondary-color" name="YParaEl2024" href="#YParaEl2024">#</a> Y para el 2024...
+## Y para el 2024...
 
 Tomando en cuenta lo anterior y que se vienen proyectos interesantes para el 2024, decidí dar el brinco. Hoy me puse en contacto con GoDaddy a través del chat oficial y les compartí mis necesidades. Gabriela B., quien fue mi asesora, me sugirió el plan [Gen4 VPS para Windows 4 CPU](https://www.godaddy.com/es/hosting/vps-hosting) el cual consiste en un servidor VPS (Servidor Virtual Privado) con características muy superiores al Web Hosting Ultimate.
 

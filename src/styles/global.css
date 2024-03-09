@@ -4,6 +4,15 @@
 
 .prose {
   @apply max-w-none !leading-7 sm:text-lg sm:!leading-9 md:text-xl;
+  a{
+    @apply underline decoration-solid underline-offset-2 decoration-secondary-color hover:text-secondary-color;
+  }
+}
+
+.toc{
+  a{
+    @apply no-underline hover:text-secondary-color;
+  }
 }
 
 [data-rehype-pretty-code-figure] {
@@ -63,18 +72,3 @@ code {
     }
   }
 }
-
-.prose{
-  a{
-    @apply underline decoration-solid underline-offset-2 decoration-secondary-color hover:text-secondary-color;
-  }
-  /* a:hover{
-    @apply underline decoration-secondary-color;
-  } */
-}
-
-/* article {
-  a, a:hover{
-    @apply underline decoration-secondary-color;
-  } 
-} */

@@ -4,6 +4,7 @@ import BaseLayout from "@/layouts/base.layout.astro";
 import Time from "@/components/time.component.astro";
 import Tag from "@/components/tag.component.astro";
 import Bibliography from "@/components/bibliography.component.astro";
+import TableOfContents from '@/components/TableOfContents.astro';
 import type { GetStaticPaths, InferGetStaticPropsType } from "astro";
 
 export const getStaticPaths = (async () => {
@@ -21,9 +22,13 @@ type Props = InferGetStaticPropsType<typeof getStaticPaths>;
 
 const post = Astro.props;
 
-const { Content, remarkPluginFrontmatter } = await post.render();
+const { Content, headings, remarkPluginFrontmatter } = await post.render();
 
 const ogImageUrl = new URL(post.slug + ".png", Astro.url.origin).href;
+
+let widthArticle = 'col-span-12';
+if (headings.length > 0)
+  widthArticle = 'xl:col-span-9 col-span-12';
 
 let timeToRead = remarkPluginFrontmatter.minutesRead.toString();
 
@@ -63,12 +68,17 @@ let timeToRead = remarkPluginFrontmatter.minutesRead.toString();
         {post.data.tags && <Tag tags={post.data.tags} />}
       </header>
 
-      <article class="prose dark:prose-invert">
-        <Content />
+      <div class="grid grid-cols-12 prose dark:prose-invert">
+        <article class={widthArticle}>  
+          <Content />
 
-        {post.data.references && <Bibliography references={post.data.references} />}
+          {post.data.references && <Bibliography references={post.data.references} />}
 
-      </article>
+        </article>
+
+        {headings.length > 0 && <TableOfContents headings={headings} />}
+
+    </div>
 
     </div>
   </div>

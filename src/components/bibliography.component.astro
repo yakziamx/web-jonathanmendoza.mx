@@ -1,20 +1,22 @@
 ---
-import { slugify } from "@/utils";
+// import { marked } from 'marked';
+// const response = await fetch('https://raw.githubusercontent.com/wiki/adam-p/markdown-here/Markdown-Cheatsheet.md');
+// const markdown = await response.text();
+// const content = marked.parse(markdown);
+
 interface Props {
     references: string[];
 }
 
 const { references } = Astro.props;
+references.sort((a, b) => a.localeCompare(b));
 ---
 
-<div
-    class="no-underline"
->
-    <hr>
-    <h2>Referencias</h2>
-        {
-            references.map((reference) => (
-                <p class="-indent-8 px-8">{reference}</p>
-            ))
-        }
+<div class="no-underline" id="references">
+    <h2>Referencias</h2> 
+    {
+        references.map((reference) => (
+            <p class="-indent-8 px-8">{reference}</p>
+        ))
+    }
 </div>
