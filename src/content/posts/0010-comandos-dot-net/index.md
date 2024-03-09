@@ -5,19 +5,19 @@ tags: ["desarrollo"]
 isDraft: false
 slug: dotnet-8-desde-la-terminal
 references: [
-    "MAUIMAN.dev. (2023). .NET MAUI with .NET CLI (Command Line Interface). Recuperado de https://mauiman.dev/maui_cli_commandlineinterface.html",
-    "MAUIMAN.dev. (2023). Getting started with .NET MAUI (iOS) on an M1 Mac. Recuperado de https://mauiman.dev/maui_ios_mac.html",
-    "Microsoft. (2024). Descargar .NET 8.0. Recuperado de https://dotnet.microsoft.com/es-es/download/dotnet/8.0",
-    "Microsoft. (2024). Visual Studio Code. Code editing. Redefined. Recuperado de https://code.visualstudio.com/",
-    "Microsoft Learn. (2024). ¿Qué es .NET MAUI?. Recuperado de https://learn.microsoft.com/es-es/dotnet/maui/what-is-maui?view=net-maui-8.0",
-    "Microsoft Learn. (2023). dotnet build. Recuperado de https://learn.microsoft.com/es-es/dotnet/core/tools/dotnet-build",
-    "Microsoft Learn. (2023). comando dotnet. Recuperado de https://learn.microsoft.com/es-es/dotnet/core/tools/dotnet",
-    "Microsoft Learn. (2024). dotnet new. Recuperado de https://learn.microsoft.com/es-es/dotnet/core/tools/dotnet-new",
-    "Microsoft Learn. (2023). dotnet publish. Recuperado de https://learn.microsoft.com/es-es/dotnet/core/tools/dotnet-publish",
-    "Microsoft Learn. (2023). dotnet run. Recuperado de https://learn.microsoft.com/es-es/dotnet/core/tools/dotnet-run",
-    "Microsoft Learn. (2023). dotnet workload install. Recuperado de https://learn.microsoft.com/es-es/dotnet/core/tools/dotnet-workload-install",
-    "Microsoft Learn. (2023). Información general sobre la CLI de .NET. Recuperado de https://learn.microsoft.com/es-es/dotnet/core/tools/",
-    "Warp. (2024). Warp: Your terminal, reimagined. Recuperado de https://www.warp.dev/"
+    "MAUIMAN.dev. (2023). [.NET MAUI with .NET CLI (Command Line Interface)](https://mauiman.dev/maui_cli_commandlineinterface.html)",
+    "MAUIMAN.dev. (2023). [Getting started with .NET MAUI (iOS) on an M1 Mac](https://mauiman.dev/maui_ios_mac.html)",
+    "Microsoft. (2024). [Descargar .NET 8.0](https://dotnet.microsoft.com/es-es/download/dotnet/8.0)",
+    "Microsoft. (2024). [Visual Studio Code. Code editing. Redefined](https://code.visualstudio.com/)",
+    "Microsoft Learn. (2024). [¿Qué es .NET MAUI?](https://learn.microsoft.com/es-es/dotnet/maui/what-is-maui?view=net-maui-8.0)",
+    "Microsoft Learn. (2023). [dotnet build](https://learn.microsoft.com/es-es/dotnet/core/tools/dotnet-build)",
+    "Microsoft Learn. (2023). [comando dotnet](https://learn.microsoft.com/es-es/dotnet/core/tools/dotnet)",
+    "Microsoft Learn. (2024). [dotnet new](https://learn.microsoft.com/es-es/dotnet/core/tools/dotnet-new)",
+    "Microsoft Learn. (2023). [dotnet publish](https://learn.microsoft.com/es-es/dotnet/core/tools/dotnet-publish)",
+    "Microsoft Learn. (2023). [dotnet run](https://learn.microsoft.com/es-es/dotnet/core/tools/dotnet-run)",
+    "Microsoft Learn. (2023). [dotnet workload install](https://learn.microsoft.com/es-es/dotnet/core/tools/dotnet-workload-install)",
+    "Microsoft Learn. (2023). [Información general sobre la CLI de .NET](https://learn.microsoft.com/es-es/dotnet/core/tools/)",
+    "Warp. (2024). [Warp: Your terminal, reimagined](https://www.warp.dev/)"
 ]
 ---
 
@@ -31,12 +31,11 @@ La sintaxis de uso de la CLI de .NET sería similar a la siguiente:
 dotnet <comando> <opciones>
 ```
 
-Por ejemplo: yo he estado usando la terminal llamada [Warp](https://www.warp.dev/). Para conocer la versión de .NET que tengo instalada y su ubicación invocaré el controlador dotnet con las opciones **version** e **info** de la siguiente manera:
+Por ejemplo: he estado usando la terminal llamada [Warp](https://www.warp.dev/). Para conocer la versión de .NET que tengo instalada y su ubicación invocaré el controlador dotnet con las opciones **version** e **info** de la siguiente manera:
 
 ![Captura de pantalla de la terminal Warp](./dotnet_version.gif)
 
 ## Ventajas de usar la CLI
---------------------------
 
 * Eficiencia:
     * Automatización: Puedes crear scripts para automatizar tareas repetitivas, liberando tiempo para que te concentres en tareas más creativas e importantes.
@@ -62,7 +61,6 @@ Por ejemplo: yo he estado usando la terminal llamada [Warp](https://www.warp.dev
 A continuación, te comparto los comandos que he estado usando y que podrían ser de utilidad para tu primer acercamiento con la plataforma .NET.
 
 ## Comandos
------------
 ### dotnet
 
 Para revisar si tenemos instalado .NET en el equipo y consultar la versión, se puede utilizar la opción **version** o la opción **info**. Para obtener más ayuda del controlador dotnet se puede usar la opción **help**.
@@ -83,10 +81,10 @@ Para crear un proyecto de aplicación de consola, se utiliza la plantilla **cons
 dotnet new console
 ```
 
-Para crear un proyecto de API web de ASP.NET Core, se utiliza la plantilla **webapi**, se le especifica el nombre *API* y se le indica que usará la opción *use-controllers* para que agregue los modelos y controladores:
+Para crear un proyecto de API web de ASP.NET Core, se utiliza la plantilla **webapi**, se le especifica el nombre *NuevaAPI* y se le indica que usará la opción *use-controllers* para que agregue los modelos y controladores:
 
 ```showLineNumbers title="CLI de .NET"
-dotnet new webapi -n API --use-controllers
+dotnet new webapi -n NuevaAPI --use-controllers
 ```
 
 Para crear un proyecto de MAUI (Multi-platform App UI), se utiliza la plantilla **maui** (la cual se descarga cuando se instala la carga de trabajo **maui**):

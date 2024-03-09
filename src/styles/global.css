@@ -7,6 +7,9 @@
   a{
     @apply underline decoration-solid underline-offset-2 decoration-secondary-color hover:text-secondary-color;
   }
+  h2{
+    @apply border-solid border-0 border-b border-primary-color;
+  }
 }
 
 .toc{
@@ -17,6 +20,11 @@
 
 [data-rehype-pretty-code-figure] {
   @apply relative;
+}
+[data-rehype-pretty-code-figure]:hover {
+  [data-copy]{
+    @apply visible;
+  }
 }
 
 [data-rehype-pretty-code-title] {
@@ -34,7 +42,7 @@
 }
 
 [data-copy] {
-  @apply absolute right-4 top-4 rounded-md border border-gray-500 bg-white p-2 text-sm text-gray-900 transition-all hover:bg-gray-400 disabled:pointer-events-none disabled:bg-gray-400 dark:bg-gray-900 dark:text-white hover:dark:bg-gray-800 disabled:dark:bg-gray-800;
+  @apply invisible absolute right-4 top-4 rounded-md border border-gray-500 bg-white p-2 text-sm text-gray-900 transition-all hover:bg-gray-400 disabled:pointer-events-none disabled:bg-gray-400 dark:bg-gray-900 dark:text-white hover:dark:bg-gray-800 disabled:dark:bg-gray-800;
 }
 
 pre {
@@ -70,5 +78,11 @@ code {
 
       @apply mr-4 inline-block w-4 text-right text-gray-500;
     }
+  }
+}
+
+#references {
+  a{
+    @apply no-underline hover:text-secondary-color;
   }
 }

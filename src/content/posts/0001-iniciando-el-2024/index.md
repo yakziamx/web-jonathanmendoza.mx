@@ -5,7 +5,7 @@ tags: ["personal"]
 isDraft: false
 slug: iniciando-el-2024
 references: [
-    "Artiga, H. (2023). Biografía de Bob Parsons. Emprende PYME.NET. Recuperado de https://emprendepyme.net/biografias/bob-parsons"
+    "Artiga, H. (2023). [Biografía de Bob Parsons. Emprende PYME.NET](https://emprendepyme.net/biografias/bob-parsons)"
 ]
 ---
 Decidí iniciar el 2024 rentando un servidor VPS en GoDaddy. A continuación te comparto más información sobre esta adquisición.
